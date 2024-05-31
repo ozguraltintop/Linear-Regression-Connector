@@ -3,9 +3,9 @@ import pandas as pd
 
 # MySQL veritabanına bağlanın
 connection = mysql.connector.connect(
-    host='89.252.182.211',  # MySQL sunucunuzun adresi
+    host='',  # MySQL sunucunuzun adresi
     user='devialtcomtr_turkeyca_yapilacaklar_db',  # MySQL kullanıcı adı
-    password='%Dt4w?m8w6[G',  # MySQL kullanıcı şifresi
+    password='',  # MySQL kullanıcı şifresi
     database='devialtcomtr_turkeyca_yapilacaklar_db'  # MySQL veritabanı adı
 )
 # SQL sorgusu
